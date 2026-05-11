@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Roadmap - Day 5 Final</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #10b981; --dark: #0f172a; --bg: #f8fafc; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); margin: 0; color: var(--dark); scroll-behavior: smooth; }
+        .slide { 
+            min-height: 100vh; display: flex; flex-direction: column; justify-content: center; 
+            padding: 80px; box-sizing: border-box; border-bottom: 1px solid #e2e8f0; background: white;
+        }
+        .header-accent { border-left: 8px solid var(--primary); padding-left: 20px; margin-bottom: 2rem; }
+        h1 { font-family: 'Poppins', sans-serif; font-size: 4rem; margin: 0; line-height: 1; }
+        h2 { font-family: 'Poppins', sans-serif; font-size: 2.5rem; margin: 0; }
+        .map-container { width: 100%; max-width: 900px; margin: 20px auto; border-radius: 15px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); overflow: hidden; border: 1px solid #e2e8f0; }
+        .map-container img { width: 100%; display: block; }
+        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 40px; }
+        .card { background: var(--bg); padding: 30px; border-radius: 12px; text-align: center; }
+        .big-num { font-size: 4rem; font-weight: 700; color: var(--primary); display: block; }
+        table { width: 100%; border-collapse: collapse; margin-top: 2rem; font-size: 1.1rem; }
+        th { text-align: left; padding: 15px; background: var(--bg); border-bottom: 2px solid var(--primary); }
+        td { padding: 15px; border-bottom: 1px solid #e2e8f0; }
+        .badge { padding: 5px 12px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; background: #fee2e2; color: #ef4444; }
+    </style>
+</head>
+<body>
+
+    <div class="slide" style="background: var(--dark); color: white;">
+        <div class="header-accent">
+            <p style="color: var(--primary); font-weight: 600; letter-spacing: 3px;">ELECTORAL DATA STRATEGY</p>
+            <h1 style="color: white;">Strategic Roadmap</h1>
+            <p style="font-size: 1.5rem; color: #94a3b8;">Final Delivery: Battleground Cluster Analysis</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="header-accent">
+            <h2>Geospatial Intelligence</h2>
+            <p>Visualizing the 156 high-priority swing counties.</p>
+        </div>
+        <div class="map-container">
+            <img src="../visualizations/newplot%20(1).png" alt="Strategic Heatmap">
+        </div>
+        <p style="text-align: center; color: var(--gray); font-style: italic; margin-top: 20px;">
+            Targeting regions where victory margin is under 5% threshold.
+        </p>
+    </div>
+
+    <div class="slide">
+        <div class="header-accent">
+            <h2>Correlation Power</h2>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <span class="big-num">0.75</span>
+                <p>Professional Profile (Strong Predictor)</p>
+            </div>
+            <div class="card">
+                <span class="big-num">0.05</span>
+                <p>Ethnic Background (Neutral Factor)</p>
+            </div>
+            <div class="card">
+                <span class="big-num">105</span>
+                <p>Node A: Knowledge Economy Clusters</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="header-accent">
+            <h2>High-Volatility Zones</h2>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>State</th>
+                    <th>Node Type</th>
+                    <th>Victory Margin</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>New York</td>
+                    <td>Node A (Knowledge)</td>
+                    <td>-0.024%</td>
+                    <td><span class="badge">CRITICAL</span></td>
+                </tr>
+                <tr>
+                    <td>California</td>
+                    <td>Node A (Knowledge)</td>
+                    <td>0.151%</td>
+                    <td><span class="badge">CRITICAL</span></td>
+                </tr>
+                <tr>
+                    <td>Minnesota</td>
+                    <td>Node A (Knowledge)</td>
+                    <td>-0.177%</td>
+                    <td><span class="badge">HIGH ALERT</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
