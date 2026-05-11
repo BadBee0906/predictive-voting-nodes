@@ -3,6 +3,8 @@ Predictive analysis and voter segmentation using Python and geospatial statistic
 # Electoral Data Strategy: Predictive Node Analysis 🗳️
 
 ![Strategic Heatmap](visualizations/newplot%20(1).png)
+
+https://htmlpreview.github.io/?https://github.com/BadBee0906/predictive-voting-nodes/blob/main/visualizations/mapa_interactivo_espanol.html
 *Figure 1: Geospatial distribution of the 156 high-priority battleground counties analyzed in this project.*
 ## 📌 Project Overview
 This repository contains a comprehensive data science workflow designed to identify and segment **156 high-priority swing counties** in the United States. By leveraging Python-based statistical analysis, this project demonstrates a shift from traditional demographic targeting (race/ethnicity) to a **professional-socioeconomic model**.
